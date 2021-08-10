@@ -17,7 +17,6 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --project ./tsconfig.json",
-    "postinstall": "npm run build",
     "start": "node dist/index.js"
   },
   "bin": "./dist/index.js",
